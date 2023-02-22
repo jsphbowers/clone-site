@@ -1,0 +1,51 @@
+
+
+.section-height {
+  min-height: 50vh;
+}
+
+.vodka-bottle {
+  min-height: 20vh;
+  object-position: center;
+  object-fit: cover;
+}
+
+.bg-image {
+  background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+  min-height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50em;
+  object-fit: cover;
+  background-position: center;
+}
+
+.blog-background {
+  background-image: url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.office-background {
+  background-image: url(https://images.unsplash.com/photo-1625264412785-7c94942908a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGlzdGlsbGVyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.expertise-background {
+  background-image: url(https://images.unsplash.com/photo-1625062323247-569f2158804c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1peG9sb2dpc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}

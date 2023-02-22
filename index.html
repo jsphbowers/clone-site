@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Site</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- //NOTE - Delete this to remove Debug styling -->
+<style>
+
+* {
+    min-height: 5vh;
+}
+
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+</head>
+<body class="debug">
+    <header class="container-fluid">
+        <!-- SECTION Nav bar at the top -->
+        <nav class="row justify-content-end">
+            <div class="col-6 text-center">
+                <img class="logo" src="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Vodka Logo">
+            </div>
+            <div class="col-1 text-center">
+                <p class="mb-0 mt-2">Work</p>
+            </div>
+            <div class="col-1 text-center">
+                <p class="mb-0 mt-2">About</p>
+            </div>
+            <div class="col-1 text-center">
+                <p class="mb-0 mt-2">Expertise</p>
+            </div>
+            <div class="col-1 text-center">
+                <p class="mb-0 mt-2">Blog</p>
+            </div>
+            <div class="col-1 text-center">
+                <p class="mb-0 mt-2">Store</p>
+            </div>
+            <div class="col-1 text-center">
+                <p class="mb-0 mt-2">Contact</p>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <section class="row justify-content-evenly bg-image section-height">
+            <div class="col-3 text-center p-5 m-5">
+                <H1>44° North Vodka</H1>
+                <p>Kind of made in the northwest</p>
+            </div>
+            <div class="col-3 text-center vodka-bottle m-5">
+                <img src="https://44northvodka.com/static/133a4df8d9580b636316bfffb5629521/1cd39/huckleberry.avif" alt="Vodka bottle">
+            </div>
+        </section>
+        <!-- SECTION Rando Paragraph -->
+        <section class="row bg-dark text-light justify-content-end">
+            <div class="col-9 p-5 m-5">
+                <H2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, temporibus nemo? Similique ad quam mollitia provident assumenda nihil aliquid dolorem porro beatae nulla. Nihil minima facere debitis illo reiciendis rerum. <button>Learn More</button></H2> 
+            </div>
+        </section>
+        <!-- SECTION Photos with descriptions -->
+        <section class="row justify-content-center">
+            <div class="col-3 blog-background m-2">Blog</div>
+            <div class="col-3 office-background m-2 ">Office</div>
+            <div class="col-3 expertise-background m-2">Expertise</div>
+            <div class="col-4">Lorem, ipsum dolor.</div>
+            <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quaerat?
+            </div>
+            <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-dark text-light">
+        <!-- SECTION Bottom Nav Bar -->
+        <nav class="row text-center">
+            <div class="col-1 pt-4">JOBS</div>
+            <div class="col-1 pt-4">STORE</div>
+            <div class="col-1 pt-4">TWITTER</div>
+            <div class="col-1 pt-4">FACEBOOK</div>
+            <div class="col-4">
+                <p class="pt-2">612.315.5270</p>
+                <p class="pt-2">3258 Minnehala Ave</p>
+            </div>
+            <div class="col-4">
+                <p class="pt-2">hello@stuinapales.com</p>
+                <p class="pt-2">Minneapoli, MN 55555</p>
+            </div>
+        </nav>
+    </footer>
+
+</body>
+</html>
